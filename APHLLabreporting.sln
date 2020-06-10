@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "APHLLabreporting", "APHLLabreporting\APHLLabreporting.rptproj", "{8B33D8CE-D36C-44E7-BBC6-6DE797825D09}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Data Quality Reporting", "Data Quality Reporting\Data Quality Reporting.rptproj", "{9AF1C5AD-2758-4291-BD2D-C535C59B6A45}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Overall TAT Analysis", "Overall TAT Analysis\Overall TAT Analysis.rptproj", "{E89B17D4-8C40-4DDE-9BDC-E534D1C17C8F}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "TB", "TB\TB.rptproj", "{C608F61F-BF7A-4F75-9540-23F364F989A7}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "COVID-19", "COVID19\COVID-19.rptproj", "{9E07D043-1D1A-4C37-A2B1-8BF228B6F01D}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Recency", "Recency\Recency.rptproj", "{12E4CDE7-6816-466F-8A9C-E34AC18613E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B33D8CE-D36C-44E7-BBC6-6DE797825D09}.Debug|Default.ActiveCfg = Debug
+		{8B33D8CE-D36C-44E7-BBC6-6DE797825D09}.Debug|Default.Build.0 = Debug
+		{8B33D8CE-D36C-44E7-BBC6-6DE797825D09}.Debug|Default.Deploy.0 = Debug
+		{8B33D8CE-D36C-44E7-BBC6-6DE797825D09}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{8B33D8CE-D36C-44E7-BBC6-6DE797825D09}.DebugLocal|Default.Build.0 = DebugLocal
+		{8B33D8CE-D36C-44E7-BBC6-6DE797825D09}.Release|Default.ActiveCfg = Release
+		{8B33D8CE-D36C-44E7-BBC6-6DE797825D09}.Release|Default.Build.0 = Release
+		{8B33D8CE-D36C-44E7-BBC6-6DE797825D09}.Release|Default.Deploy.0 = Release
+		{9AF1C5AD-2758-4291-BD2D-C535C59B6A45}.Debug|Default.ActiveCfg = Debug
+		{9AF1C5AD-2758-4291-BD2D-C535C59B6A45}.Debug|Default.Build.0 = Debug
+		{9AF1C5AD-2758-4291-BD2D-C535C59B6A45}.Debug|Default.Deploy.0 = Debug
+		{9AF1C5AD-2758-4291-BD2D-C535C59B6A45}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{9AF1C5AD-2758-4291-BD2D-C535C59B6A45}.DebugLocal|Default.Build.0 = DebugLocal
+		{9AF1C5AD-2758-4291-BD2D-C535C59B6A45}.Release|Default.ActiveCfg = Release
+		{9AF1C5AD-2758-4291-BD2D-C535C59B6A45}.Release|Default.Build.0 = Release
+		{9AF1C5AD-2758-4291-BD2D-C535C59B6A45}.Release|Default.Deploy.0 = Release
+		{E89B17D4-8C40-4DDE-9BDC-E534D1C17C8F}.Debug|Default.ActiveCfg = Debug
+		{E89B17D4-8C40-4DDE-9BDC-E534D1C17C8F}.Debug|Default.Build.0 = Debug
+		{E89B17D4-8C40-4DDE-9BDC-E534D1C17C8F}.Debug|Default.Deploy.0 = Debug
+		{E89B17D4-8C40-4DDE-9BDC-E534D1C17C8F}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{E89B17D4-8C40-4DDE-9BDC-E534D1C17C8F}.DebugLocal|Default.Build.0 = DebugLocal
+		{E89B17D4-8C40-4DDE-9BDC-E534D1C17C8F}.Release|Default.ActiveCfg = Release
+		{E89B17D4-8C40-4DDE-9BDC-E534D1C17C8F}.Release|Default.Build.0 = Release
+		{E89B17D4-8C40-4DDE-9BDC-E534D1C17C8F}.Release|Default.Deploy.0 = Release
+		{C608F61F-BF7A-4F75-9540-23F364F989A7}.Debug|Default.ActiveCfg = Debug
+		{C608F61F-BF7A-4F75-9540-23F364F989A7}.Debug|Default.Build.0 = Debug
+		{C608F61F-BF7A-4F75-9540-23F364F989A7}.Debug|Default.Deploy.0 = Debug
+		{C608F61F-BF7A-4F75-9540-23F364F989A7}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{C608F61F-BF7A-4F75-9540-23F364F989A7}.DebugLocal|Default.Build.0 = DebugLocal
+		{C608F61F-BF7A-4F75-9540-23F364F989A7}.Release|Default.ActiveCfg = Release
+		{C608F61F-BF7A-4F75-9540-23F364F989A7}.Release|Default.Build.0 = Release
+		{C608F61F-BF7A-4F75-9540-23F364F989A7}.Release|Default.Deploy.0 = Release
+		{9E07D043-1D1A-4C37-A2B1-8BF228B6F01D}.Debug|Default.ActiveCfg = Debug
+		{9E07D043-1D1A-4C37-A2B1-8BF228B6F01D}.Debug|Default.Build.0 = Debug
+		{9E07D043-1D1A-4C37-A2B1-8BF228B6F01D}.Debug|Default.Deploy.0 = Debug
+		{9E07D043-1D1A-4C37-A2B1-8BF228B6F01D}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{9E07D043-1D1A-4C37-A2B1-8BF228B6F01D}.DebugLocal|Default.Build.0 = DebugLocal
+		{9E07D043-1D1A-4C37-A2B1-8BF228B6F01D}.Release|Default.ActiveCfg = Release
+		{9E07D043-1D1A-4C37-A2B1-8BF228B6F01D}.Release|Default.Build.0 = Release
+		{9E07D043-1D1A-4C37-A2B1-8BF228B6F01D}.Release|Default.Deploy.0 = Release
+		{12E4CDE7-6816-466F-8A9C-E34AC18613E6}.Debug|Default.ActiveCfg = Debug
+		{12E4CDE7-6816-466F-8A9C-E34AC18613E6}.Debug|Default.Build.0 = Debug
+		{12E4CDE7-6816-466F-8A9C-E34AC18613E6}.Debug|Default.Deploy.0 = Debug
+		{12E4CDE7-6816-466F-8A9C-E34AC18613E6}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{12E4CDE7-6816-466F-8A9C-E34AC18613E6}.DebugLocal|Default.Build.0 = DebugLocal
+		{12E4CDE7-6816-466F-8A9C-E34AC18613E6}.Release|Default.ActiveCfg = Release
+		{12E4CDE7-6816-466F-8A9C-E34AC18613E6}.Release|Default.Build.0 = Release
+		{12E4CDE7-6816-466F-8A9C-E34AC18613E6}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82F4DC88-1805-4401-B3A0-21A9C1EABE86}
+	EndGlobalSection
+EndGlobal

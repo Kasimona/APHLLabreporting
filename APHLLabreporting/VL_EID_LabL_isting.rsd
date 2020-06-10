@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>MainDS</DataSourceReference>
+      <CommandText>Select distinct coalesce(TestingFacilityCode,ReceivingFacilityCode) LabCode
+, case 
+when coalesce(TestingFacilityCode,ReceivingFacilityCode) = 'ZUA' then 'UTH-HAP ACOE'
+when coalesce(TestingFacilityCode,ReceivingFacilityCode) = 'ZUE' then 'UTH-HAP PCOE'
+when coalesce(TestingFacilityCode,ReceivingFacilityCode) = 'ZUL' then 'UTH Virology'
+when  coalesce(TestingFacilityCode,ReceivingFacilityCode) = 'ZUX' then 'UTH High Cost'
+when coalesce(TestingFacilityCode,ReceivingFacilityCode) = 'ZUP' then 'UTH Pediatrics'
+when coalesce(TestingFacilityCode,ReceivingFacilityCode) = 'ZUC' then 'UTH Cytology'
+when coalesce(TestingFacilityCode,ReceivingFacilityCode) = 'ZUT' then 'UTH TB'
+WHEN coalesce(TestingFacilityCode,ReceivingFacilityCode) like 'ZU_' and coalesce(TestingFacilityCode,ReceivingFacilityCode) not in ('ZUA','ZUE','ZUL','ZUX','ZUP','ZUC','ZUT') then 'UTH Other Labs'
+when coalesce(TestingFacilityCode,ReceivingFacilityCode) like 'ZLR' then 'Livingstone Central Virology'
+when coalesce(TestingFacilityCode,ReceivingFacilityCode) like 'ZLP' then 'Livingstone Central Main Lab'
+else LabName
+end as [Laboratory Name]
+from VLEIDREquests inner join OpenLDRDict.dbo.Laboratories
+on coalesce(TestingFacilityCode,REceivingFacilityCode)=LabCode
+where limspanelcode in ('HIVVL','HIVPC')
+and coalesce(TestingFacilityCode,ReceivingFacilityCode) not in ('ZZZ','ZXZ','XXX','ZUD')
+order by 2</CommandText>
+      <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+    </Query>
+    <Fields>
+      <Field Name="LabCode">
+        <DataField>LabCode</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Laboratory_Name">
+        <DataField>Laboratory Name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

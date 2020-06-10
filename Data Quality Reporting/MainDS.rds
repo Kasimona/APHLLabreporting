@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MainDS">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=.\SQLEXPRESS;Initial Catalog=OpenLDRReporting</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>a1d2df0e-fdf3-412c-8162-c60e8543d2f1</DataSourceID>
+</RptDataSource>
